@@ -1,12 +1,10 @@
+import Navbar from "../components/NavBar/navBar";
 
 const Website = () => {
   return (
-    <div>
-        <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-    </div>
-  )
-}
+    <Navbar/>
+  );
+};
 
-export default Website
+export default Website;
+ 
